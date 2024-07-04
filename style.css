@@ -1,74 +1,17 @@
-h3{
-    font-size: 30px;
-    font-weight: weight;
-    font-family: "Space Grotesk", sans-serif;
-    text-align: center;
-    
-    color: aliceblue;
-    
-
+img{
+    width: 150px;
 
 }
 
-.parent{
-    background-image: url("giphy.webp"), linear-gradient(45deg, blueviolet,lightgreen);
-    
-
-
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: saturate(140%);
-    height: 430px;
-    object-fit: cover;
-    
- 
-
-   
-
+.line{
+    display: flex;
 }
-
-
-
-p{
-    color: #ddd;
-    font-weight: weight;
-    text-align: center;
-    font-family: "Space Grotesk", sans-serif;
-
+.under{
+    margin-right: 15px;
+    text-decoration: none;
+    list-style: none;
 }
-
-.button{
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-  
-    
-    
-    
-
-
-
-}
-
-.btn{
-    padding: 9px 20px;
-    border-radius: 8px;
-    color:#ddd;
-    font-size: 11px;
-    font-family: "Space Grotesk", sans-serif;
-    background: linear-gradient(45deg, blueviolet,lightgreen);
-    border: none;
-    font-style: uppercase;
-    letter-spacing: 2px;
-    box-shadow: 0px 2px 3px 4px rgba(0, 204, 255, 0.517);
-    margin: 15px;
-    
-
-}
-
-.btn:hover{
-    transform: scale(1.1) translate(5px);
- 
-    background:linear-gradient(50deg, rgb(251, 4, 218), rgb(2, 2, 255));
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
