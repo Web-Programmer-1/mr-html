@@ -1,17 +1,8 @@
-img{
-    width: 150px;
-
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
 }
 
-.line{
-    display: flex;
-}
-.under{
-    margin-right: 15px;
-    text-decoration: none;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+th,thead,tr,td{
+    border: 2px solid;
 }
